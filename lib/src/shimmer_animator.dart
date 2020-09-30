@@ -34,7 +34,7 @@ class _ShimmerAnimatorState extends State<ShimmerAnimator>
       ..addListener(() async {
         setState(() {});
       });
-    controller.repeat();
+    controller.forward();
   }
 
   @override
